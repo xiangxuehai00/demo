@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+
+table{background-color:#D5EDFD}
+table tr th{font-size:14px;color:#FFF;background-color:#69C}
+table tr td{font-size:12px;background-color:#FFF}
+
+.f12{font-size:12px}
+.h20{height:20px}
+.red{color:#F00}
+.blue{color:#00F}
+
+table#title_area{border:1px #99D3FB solid}
+table#title_area tr td{height:30px;font-size:12px;background:url("/admin/skin/images/bg_table.jpg") repeat-x scroll 0 0 transparent}
+table#title_area tr td#page_title{font-size:14px;font-weight:bold;padding-left:10px;color:#077AC7}
+
+table#prompt{margin:10px auto;background-color:#D5EDFD}
+table#prompt tr td{font-size:14px;font-weight:bold;line-height:180%}
+table#prompt tr td#pormpt_title{height:25px;color:#077AC7;background:url("/admin/skin/images/bg_table.jpg") repeat-x scroll 0 0 transparent}
+table#prompt tr td div{font-size:14px;font-weight:normal;margin-top:8px}
+table#prompt tr td div.line2{margin-bottom:16px}
+table#prompt tr td div a{font-size:12px;font-weight:normal;color:#00F;text-decoration:underline}
+table#prompt tr td div a:hover{color:#F60}
+
+#gift_select ul{margin:0px;padding:0px;list-style:none}
+#gift_select ul li{margin:0px;padding-left:10px;height:20px;padding-top:5px;border-bottom:1px #a2dafd dotted;list-style:none;cursor:pointer}
+#gift_select ul li.selbgcolor{background-color:#d5effc}
+
+#explain{background:none}
+#explain tr td p{background:none;font-size:14px;line-height:150%}
+#explain tr td p .b{font-weight:bold}
+
+#page{font-size:12px;font-family:Arial,SimSun;width:100%;float:left;margin-top:0px}
+#page ol{width:100%;float:left}
+#page li{float:right;background:#E7F5FE;border:1px solid #99D3FB;margin-right:10px;display:inline}
+#page li a{color:#159CF9;padding:0 5px;line-height:19px;display:block}     
+#page li a:hover, #page li.on a{color:#fff;font-weight:bolder;background:#99D3FB;text-decoration:none}
+
+#foot_area{background:none}
+#foot_area tr td{font-size:12px;background:none}
